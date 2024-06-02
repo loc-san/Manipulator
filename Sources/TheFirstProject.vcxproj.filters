@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Kinematics">
+      <UniqueIdentifier>{190ce9da-6401-4585-9c23-3312bdc20ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{2575969b-ceca-467b-998c-aeb62c0e965e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{98c5cd3e-d408-4b41-9039-b3410a49e5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Motor">
+      <UniqueIdentifier>{7c29cb92-2c63-4371-8144-547288243426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serial_Communication">
+      <UniqueIdentifier>{cd22d5b6-cec1-46a9-b6bf-3ac60c7ed4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MCU">
+      <UniqueIdentifier>{7b722e25-e971-4d96-8c5f-fa2977e40369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manipulator">
+      <UniqueIdentifier>{aca3b338-8502-45c1-a635-ebece996fbc6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kinematics.cpp">
+      <Filter>Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="mcu.cpp">
+      <Filter>MCU</Filter>
+    </ClCompile>
+    <ClCompile Include="motor.cpp">
+      <Filter>Motor</Filter>
+    </ClCompile>
+    <ClCompile Include="Com.cpp">
+      <Filter>Serial_Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="manipulator.cpp">
+      <Filter>Manipulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kinematics_pub.h">
+      <Filter>Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics_priv.h">
+      <Filter>Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics_inf.h">
+      <Filter>Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="template_pub.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="template_priv.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="template_inf.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="AliasTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_pub.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_priv.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_inf.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="mcu_priv.h">
+      <Filter>MCU</Filter>
+    </ClInclude>
+    <ClInclude Include="mcu_pub.h">
+      <Filter>MCU</Filter>
+    </ClInclude>
+    <ClInclude Include="mcu_inf.h">
+      <Filter>MCU</Filter>
+    </ClInclude>
+    <ClInclude Include="Com_pub.h">
+      <Filter>Serial_Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Com_priv.h">
+      <Filter>Serial_Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Com_inf.h">
+      <Filter>Serial_Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="motor_priv.h">
+      <Filter>Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="motor_inf.h">
+      <Filter>Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="motor_pub.h">
+      <Filter>Motor</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator_inf.h">
+      <Filter>Manipulator</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator_priv.h">
+      <Filter>Manipulator</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator_pub.h">
+      <Filter>Manipulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
