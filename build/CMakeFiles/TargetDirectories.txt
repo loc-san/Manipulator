@@ -1,0 +1,9 @@
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/CMakeFiles/Tutorial.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/kinematics/CMakeFiles/KINEMATICS.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/driver/CMakeFiles/DRIVER.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/mcu/CMakeFiles/MCU.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/motor/CMakeFiles/MOTOR.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/serial/CMakeFiles/SERIAL.dir
+C:/Users/DELL/Desktop/new/Project1_VSCode/build/manipulator/CMakeFiles/MANIPULATOR.dir

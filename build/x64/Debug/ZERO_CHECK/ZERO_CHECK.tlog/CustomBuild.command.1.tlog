@@ -1,0 +1,10 @@
+^C:\USERS\DELL\DESKTOP\NEW\PROJECT1_VSCODE\BUILD\CMAKEFILES\60C7F39D6440185874126291FD0A48EA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DELL/Desktop/new/Project1_VSCode -BC:/Users/DELL/Desktop/new/Project1_VSCode/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL/Desktop/new/Project1_VSCode/build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
